@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+:root{
+  --primary-white:#fff;
+  --primary-orange:#f9ab00;
+  --primary-dark:rgba(255,255,255,0);
+}
+
+body{
+ font-family: 'Roboto Condensed', sans-serif;
+ 
+}
+/******************NAVIGATION BAR**********/
+.logo
+{
+  width: 2rem;
+  height: 2rem;
+}
+.navbar{
+  z-index: 2;
+}
+
+.navbar-nav > li >a{
+    color: white !important;
+    font-size: 1.2rem;
+     border-top: 2px solid var(--primary-dark)
+   
+}
+.navbar-nav>li>a.active,
+.navbar-nav>li>a:focus{
+  border-top: 2px solid red;
+}
+.navbar-nav>li>a:hover{
+  background-color: red;
+}
+
+/******************HEADER**********/
+.header-wrapper{
+  position: relative;
+  background: url('./Assets/computer-setup1.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 115vh;
+  z-index: 2;
+ 
+}
+.main-info{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+
+ 
+  
+}
+/******************About-Me**********/
+.about-me-wrapper{
+    background: url('./Assets/oceans.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+    position: relative;
+    z-index: 2;
+    
+}
+.about-me-maininfo
+{
+  
+  color:white;
+  margin-left: 1.4em;
+  margin-right: 1.4em;
+  margin-bottom: 1.2em;
+  position: relative;
+  
+}
+.about-me-maininfo > p{
+  font-size: 28px;
+  text-align: center;
+  text-overflow: clip;
+}
+.about-me-maininfo > h2
+{
+  font-weight:lighter
+}
+/******************Skill Set**********/
+.skillset-wrapper{
+  background: url('./Assets/skillset.jpg') no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  position: relative;
+  z-index: 2;
+}
+.skillset-maininfo{
+  position: relative;
+  background-color:#C0C0C0;
+  background-size: cover;
+  height: 75vh;
+  width: 80vh;
+  margin-right: 2rem;
+ 
+}
+.skillset-parent{
+  position: relative;
+}
+.skillset-maininfo > ul > li{
+  color:#000000;
+  font-size: 2em;
+}
+/******************EDucation**********/
+.eduaction-wrapper
+{
+  background:url('./Assets/Book.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  opacity: 0.95;
+}
+.education > h2{
+  color:yellow;
+  font-weight: bold;
+}
+.social-media{
+    background: url('./Assets/Social-Media.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+    width: 30rem;
+    text-align: center;
+    color: white;
+
+}
+.social-media>h2{
+  color: red;
+  font-weight: bold;
+}
+/******************PROJECTS**********/
+.projects-wrapper{
+  background: url('./Assets/Projects-Background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+}
+.card{
+  font-size: 1.4em;
+  background-color: #C0C0C0;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  
+}
+.card-link
+{
+  color: red;
+}
+.card-subtitle
+{
+  font-size: 2rem;
+}
+.card-text{
+  font-size: 1.5rem;
+}
+/********* Contact Form**********/
+.contact-form-wrapper{
+  background: url('./Assets/Anonymous1.jpg') no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 130vh;
+}
+/************ Particles  ************/
+.tsparticles-canvas-el{
+  z-index: 1;
+  
+  height: 100vh;
+  width: 100vw;
+}
+/************ Typing Animations  ************/
+.typed-text{
+  font-size: 2.5rem;
+  color: yellow;
+}
+/***************Carousel************/
+a.explore
+{
+  margin-bottom: 28em;
+  
+}
+/***************Media Queires************/
+@media(max-width:768px)
+{
+  
+  .projects-wrapper{
+      height: 200vh;
+  }
+}
+@media(max-width:1238px)
+{
+  .eduaction-wrapper{
+    margin-right: 1em;
+  }
+}
