@@ -74,12 +74,13 @@ const Skillset = () => {
             <li className="item">Java</li>
             <li className="item">HTML5</li>
 						<li className="item">CSS3</li>
-						 <li className="item">SASS Pre Processor</li>
+						 <li className="item">SASS Pre-Processor</li>
 						<li className="item">Bootstrap CSS</li>
           </ul>
 					<ul className="skill ">
 						 <li className="item">Materialize CSS</li>
-            <li className="item">React Js</li>
+						<li className="item">React Js</li>
+						 <li className="item">NextJs</li>
             <li className="item">Vanilla NodeJS</li>
             <li className="item">ExpressJs</li>
             <li className="item">MongoDb/SQL</li>

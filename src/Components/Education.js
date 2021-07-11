@@ -15,7 +15,7 @@ const Education = () => {
           <h2>2-Bachelors In Computer Engineering</h2>
           <h2>3-Masters Of Technology in Computer Engineering</h2>
         </div>
-         <a href="" className="button btn btn-danger mx-4">Download CV</a>
+         <a href="https://drive.google.com/drive/folders/1Y5fvytPp7MbeDCRUg1l5H4YqWJdU_sTt?usp=sharing" target="_blank" className="button btn btn-danger mx-4">Download CV</a>
         <div className="social-media">
          
           <h1>Social Media</h1>

@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import Carousel1 from '../Assets/computer-setup1.jpg';
 import Carousel2 from '../Assets/c1.jpg';
 import Carousel3 from '../Assets/ramon-salinero-vEE00Hx5d0Q-unsplash (2).jpg';
+
 import {Link} from 'react-router-dom'
 
 export default function carousel() {
@@ -11,8 +12,8 @@ export default function carousel() {
     <>
 
 
-
-      <Carousel>
+     
+        <Carousel className="carousel">
         <Carousel.Item interval={1000}>
           <img
             className="d-block w-100  img-fluid  height: auto "
@@ -47,6 +48,9 @@ export default function carousel() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      <div className="carousel-wrapper">
+         <h1> <Link to={"/header"} className="btn btn-danger btn-lg explore ">EXPLORE MORE</Link></h1>
+      </div>
 
 
 

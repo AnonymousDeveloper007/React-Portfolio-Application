@@ -65,9 +65,9 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
-    height: 100vh;
+    height: 120vh;
     position: relative;
-    z-index: 2;
+    z-index: 1;
     
 }
 .about-me-maininfo
@@ -96,7 +96,7 @@ body{
   height: 100vh;
   background-position: center;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 .skillset-maininfo{
   position: relative;
@@ -121,11 +121,15 @@ body{
   background-size: cover;
   background-position: center;
   height: 100vh;
+  
+  
+  
   opacity: 0.95;
 }
 .education > h2{
   color:yellow;
   font-weight: bold;
+  margin-left: 4rem;
 }
 .social-media{
     background: url('./Assets/Social-Media.jpg');
@@ -133,8 +137,10 @@ body{
     background-position: center;
     height: 30rem;
     width: 30rem;
+    margin-right: 3rem;
     text-align: center;
     color: white;
+   
 
 }
 .social-media>h2{
@@ -147,7 +153,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 120vh;
+  height: 200vh;
 }
 .card{
   font-size: 1.4em;
@@ -174,7 +180,7 @@ body{
   background: url('./Assets/Anonymous1.jpg') no-repeat;
   background-size: cover;
   background-position:center;
-  height: 130vh;
+  height: 120vh;
 }
 /************ Particles  ************/
 .tsparticles-canvas-el{
@@ -191,20 +197,58 @@ body{
 /***************Carousel************/
 a.explore
 {
-  margin-bottom: 28em;
+  margin-bottom: 27em;
   
 }
+.carousel-wrapper
+{
+  display:none
+}
+
 /***************Media Queires************/
 @media(max-width:768px)
 {
   
   .projects-wrapper{
-      height: 200vh;
+    height: 400vh;
   }
 }
-@media(max-width:1238px)
+ /* @media(max-width:416px)
 {
-  .eduaction-wrapper{
-    margin-right: 1em;
+  .social-media{
+     margin-right: 2rem;
   }
+}  */
+ @media(max-width:1599px)
+{
+  
+  .carousel
+  {
+    display: none;
+  }
+} 
+@media(max-width:1598px)
+{
+ /*  .carousel-wrapper{
+    background-image: url('./Assets/AboutMe-Background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    max-width: 100%;
+  } */
+  .carousel-wrapper
+{
+  /* background-color: #000000; */
+  background-image: url('./Assets/Carousel-4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  
+  display: flex;
+ 
+  align-items: center;
+  justify-content: center;
+  
 }
+
+} 

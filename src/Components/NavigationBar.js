@@ -13,7 +13,7 @@ const NavigationBar = () => {
       
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
-        <a className="navbar-brand" href="#" className="text-white h3 text-decoration-none ">
+        <a className="navbar-brand" href="/header" className="text-white h3 text-decoration-none ">
           Yashowardhan Dole
           <img src={ComputerLogo} alt="Computer Logo" className="logo ml-2"></img>
           <img src={MouseLogo} alt="Mouse Logo" className="logo"></img>
